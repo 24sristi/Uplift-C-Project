@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	char name[56], juice1[]="Mango-juice" ,juice2[]="guava-juice" ,juice3[]="grapes-juice" ,juice4[]="apple-juice",juice5[]="orange-juice", fom1[]="Flour", fom2[]="Rice", fom3[]="Oil", fom4[]="Red-chilli powder", fom5[]="pulses",clean1[]="Spin-Mop",clean2[]="Natural Grass Broom",clean3[]="Scrub Sponge",clean4[]="Freshner",clean5[]="Bucket";
+	char name[56], juice1[]="Mango-juice" ,juice2[]="guava-juice" ,juice3[]="grapes-juice" ,juice4[]="apple-juice",juice5[]="orange-juice", fdg1[]="Flour", fdg2[]="Rice", fdg3[]="Oil", fdg4[]="Red-chilli-powder", fdg5[]="Pulses",clean1[]="Spin-Mop",clean2[]="Natural Grass Broom",clean3[]="Scrub Sponge",clean4[]="Freshner",clean5[]="Bucket";
 	char hygiene1[]="Hair care-Dove shampoo", hygiene2[]="Livon serum", hygiene3[]="Face-foundation",hygiene4[]="colgate",hygiene5[]="oral-care";
 	char snacks1[]="Cookies", snacks2[]="Maggie", snacks3[]="Lays", snacks4[]="Ketchup", snacks5[]="cornflakes",gotobeginning ;
 	int option=0,juiceoption,juiceoption1, qty,cleanoption,grainsoption,snacksoption,hygieneoption;
@@ -19,8 +19,8 @@ int main()
 
 system("color CF");
 	cout<<"1.Wear masks.\n";
-	cout<<"2.Clean you hands with sanitizer while handling purchased products.\n";
-	cout<<"3.Cover a cough and sneeze in you bent elbow or tissue.\n";
+	cout<<"2.Clean your hands with sanitizer while handling purchased products.\n";
+	cout<<"3.Cover a cough and sneeze in your bent elbow or tissue.\n";
 	cout<<"4.Maintain at least a 1-meter distance from others.\n\n";
 
     cout<<"Please Enter Your Name: ";
@@ -55,7 +55,7 @@ system("color CF");
 		cin>>juiceoption;
 		if(juiceoption>=1 && juiceoption<=5)
 		{
-			cout<<"\n1) 200ml Rs250.00\n"<<"2) 350ml  Rs500.00\n"<<"3) 450ml Rs900.00\n";
+			cout<<"\n1) 200ml Rs250.00\n"<<"2) 350ml  Rs500.00\n"<<"3) 500ml Rs900.00\n";
 			cout<<"\nChoose Size Please:";
 			cin>>juiceoption1;
 			if(juiceoption1>=1 && juiceoption1<=3)
@@ -63,13 +63,13 @@ system("color CF");
 			cin>>qty;
 			switch(juiceoption1)
 			{
-			case 1: option = 200.00*qty;
+			case 1: option = 250.00*qty;
 			break;
 
-			case 2: option = 259.00*qty;
+			case 2: option = 500.00*qty;
 			break;
 
-			case 3: option = 500.00*qty;
+			case 3: option = 900.00*qty;
 			break;
 
 
@@ -82,35 +82,35 @@ system("color CF");
 			 cout<<""<<qty<<" "<<juice1;
 			 cout<<"\nYour Total Bill is:Rs"<<option;
             cout<<"\nYour Order Will be delivered on address:"<<" "<<Address<<" "<<"in 45 Minutes";
-			 cout<<"\n\nThank you For Ordering From Big Basket online service.\n";
+			 cout<<"\n\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<juice2;
 			 cout<<"\nYour Total Bill is -Rs"<<option;
 			 cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 45 Minutes";
-			 cout<<"\nThank you For Ordering From Big Basket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<juice3;
 			 cout<<"\nYour Total Bill is -Rs"<<option;
 			 cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 45 Minutes";
-			 cout<<"\nThank you For Ordering From Big Basket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 4:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<juice4;
 			 cout<<"\nYour Total Bill is -Rs"<<option;
 			 cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 45 Minutes";
-			 cout<<"\nThank you For Ordering From Big Basket online service.\n";
+			 cout<<"\nThank you For Ordering From  GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			  case 5:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<juice5;
 			 cout<<"\nYour Total Bill is -Rs"<<option;
 			 cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 45 Minutes";
-			 cout<<"\nThank you For Ordering From Big Basket online service.\n";
+			 cout<<"\nThank you For Ordering From  GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 
 			}
@@ -172,35 +172,35 @@ system("color CF");
 			 cout<<""<<qty<<" "<<clean1;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			 cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 35 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service. \n";
+			 cout<<"\nThank you For Ordering From  GIGANTIC ONLINE PRODUCT SERVICE.\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<clean2;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 35 Minutes";
-			cout<<"\nThank you For Ordering From BigBasket online service. \n";
+			cout<<"\nThank you For Ordering From  GIGANTIC ONLINE PRODUCT SERVICE. \n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<clean3;
 			 cout<<"\nYour Total Bill is-Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 35 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.  \n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .  \n";
 			 break;
 			  case 4:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<clean4;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 35 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 5:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<clean5;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 35 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 
 
@@ -219,12 +219,12 @@ system("color CF");
 }
 	else if(option==3)
 	 {
-		cout<<"\n1  "<<fom1<<" Rs300.00"<<"\n";
-		cout<<"2  "<<fom2<<" Rs250.00"<<"\n";
-		cout<<"3  "<<fom3<<" Rs100.00"<<"\n";
-        cout<<"4  "<<fom2<<" Rs160.00"<<"\n";
-		cout<<"5  "<<fom3<<" Rs100.00"<<"\n";
-		cout<<"\nPlease Enter which Sandwich you would like to have?:";
+		cout<<"\n1  "<<fdg1<<" Rs300.00"<<"\n";
+		cout<<"2  "<<fdg2<<" Rs250.00"<<"\n";
+		cout<<"3  "<<fdg3<<" Rs100.00"<<"\n";
+        cout<<"4  "<<fdg4<<" Rs200.00"<<"\n";
+		cout<<"5  "<<fdg5<<" Rs115.00"<<"\n";
+		cout<<"\nPlease Enter which foodgrain ,oil,masala you would like to have?:";
 		cin>>grainsoption;
 		if(grainsoption>=1 && grainsoption<=5)
 		{
@@ -241,10 +241,10 @@ system("color CF");
 			case 3: option = 100.00*qty;
 			break;
 
-			case 4: option = 160.00*qty;
+			case 4: option = 200.00*qty;
 			break;
 
-			case 5: option = 100.00*qty;
+			case 5: option = 115.00*qty;
 			break;
 
 			}
@@ -253,39 +253,39 @@ system("color CF");
 			{
 			 case 1:
 			 cout<<"\t\t--------Your Order---------\n";
-			 cout<<""<<qty<<" "<<fom1;
+			 cout<<""<<qty<<" "<<fdg1;
 			 cout<<"\nYour Total Bill is- Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
 
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
-			 cout<<""<<qty<<"  "<<fom2;
+			 cout<<""<<qty<<"  "<<fdg2;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
-			 cout<<""<<qty<<" "<<fom3;
+			 cout<<""<<qty<<" "<<fdg3;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From  GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 4:
 			 cout<<"\t\t--------Your Order---------\n";
-			 cout<<""<<qty<<"  "<<fom4;
+			 cout<<""<<qty<<"  "<<fdg4;
 			 cout<<"\nYour Total Bill is- Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 5:
 			 cout<<"\t\t--------Your Order---------\n";
-			 cout<<""<<qty<<" "<<fom5;
+			 cout<<""<<qty<<" "<<fdg5;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 
 
@@ -312,11 +312,11 @@ system("color CF");
 		cout<<"4 "<<hygiene4<<" Rs89.00"<<"\n";
 		cout<<"5 "<<hygiene5<<" Rs200.00"<<"\n";
 
-		cout<<"\nPlease Enter which you would like to have?: ";
+		cout<<"\nPlease Enter which hygiene product you would like to have?: ";
 		cin>>hygieneoption;
 		if(hygieneoption>=1 && hygieneoption<=5)
 		{
-			cout<<"\nHow Much products Do you want: ";
+			cout<<"\nPlease Enter quantity: ";
 			cin>>qty;
 			switch(hygieneoption)
 			{
@@ -343,35 +343,35 @@ system("color CF");
 			 cout<<""<<qty<<" "<<hygiene1;
 			 cout<<"\nYour Total Bill is- Rs"<<option;
 			  cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 25 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<hygiene2;
 			 cout<<"\nYour Total Bill is- Rs"<<option;
 			cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 25 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<hygiene3;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 25 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			  case 4:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<hygiene4;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			 cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 25 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 			 case 5:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<hygiene5;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 25 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE  .\n";
 			 break;
 
 
@@ -432,34 +432,34 @@ system("color CF");
 			 cout<<""<<qty<<" "<<snacks1;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service. \n";
+			 cout<<"\nThank you GIGANTIC ONLINE PRODUCT SERVICE. \n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<snacks2;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service. \n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE. \n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<snacks3;
 			 cout<<"\n\Your Total Bill is - Rs"<<option;
 			cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE.\n";
 			 case 4:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<snacks4;
 			 cout<<"\nYour Total Bill is - Rs"<<option;
 			cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE.\n";
 			 break;
 			 case 5:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<snacks5;
 			 cout<<"\n\Your Total Bill is - Rs"<<option;
 			 cout<<"\nYour Order Will be delivered on address"<<" "<<Address<<" "<<"in 40 Minutes";
-			 cout<<"\nThank you For Ordering From BigBasket online service.\n";
+			 cout<<"\nThank you For Ordering From GIGANTIC ONLINE PRODUCT SERVICE.\n";
 
 
 			 break;
