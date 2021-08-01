@@ -27,6 +27,6 @@ This make ordering and delivering easier in covid-19 times.This shows safety rul
 
   <li>Delivery time is mentioned so no need to wait for long .</li>
   <li>
-  <a href ="https://drive.google.com/file/d/1zm7Aiw8aP77m932vxn29I91L6PbWDh3s/view?usp=drivesdk">My video Presentation</a>
+  <a href ="https://drive.google.com/file/d/1zm7Aiw8aP77m932vxn29I91L6PbWDh3s/view?usp=drivesdk">My Project video Presentation</a>
             </li>
             </ul>
